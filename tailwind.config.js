@@ -5,7 +5,16 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    colors: {
+      "accent-green": 'rgb(118,146,80)',
+      "accent-orange": 'rgb(235,114,62)'
+    },
+    extend: {
+      fontFamily: {
+        headings: ['"Fraunces Variable"', 'serif'],
+        body: ['"Nunito Variable"', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

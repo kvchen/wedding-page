@@ -16,8 +16,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource-variable/fraunces": "^5.0.22",
+    "@fontsource-variable/nunito": "^5.0.20",
     "@mdx-js/react": "^3.0.1",
     "autoprefixer": "^10.4.20",
+    "framer-motion": "^11.3.30",
     "gatsby": "^5.13.5",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-mdx": "^5.13.1",
