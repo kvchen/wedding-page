@@ -3,7 +3,7 @@ import React from "react";
 import Section from "../../components/section";
 import { StaticImage } from "gatsby-plugin-image";
 
-export default function InfoSection() {
+export default function PhotosSection() {
   return (
     <Section className="bg-background flex flex-col items-stretch">
       <div className="grid grid-cols-1 gap-12 px-12 py-16 lg:grid-cols-2 lg:px-24">
@@ -23,23 +23,16 @@ export default function InfoSection() {
             <p className="text-secondary-400">Attire</p>
             <p>Black Tie encouraged</p>
           </div>
-          <div>
-            <p className="text-secondary-400 lg:mt-12">
-              Additional details to follow.
-            </p>
-          </div>
         </div>
-        <div>
-          <StaticImage
-            className="h-[48rem]"
-            objectPosition="center 20%"
-            alt="Kevin and Lena"
-            src="../../images/RRV04319.jpg"
-            draggable={false}
-            loading="eager"
-            layout="fullWidth"
-          />
-        </div>
+        <StaticImage
+          className="h-[48rem]"
+          objectPosition="center 20%"
+          alt="Kevin and Lena"
+          src="../../images/RRV04319.jpg"
+          draggable={false}
+          loading="eager"
+          layout="fullWidth"
+        />
       </div>
     </Section>
   );

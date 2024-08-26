@@ -1,6 +1,7 @@
 import React from "react";
 
 import { motion, useScroll, useTransform } from "framer-motion";
+import TypedText from "./typedText";
 
 const textVariants = {
   hidden: { opacity: 0, y: 10 },
@@ -47,8 +48,10 @@ export default function HeroText() {
         variants={textVariants}
         transition={{ duration: 0.5 }}
       >
-        <span className="font-semibold">Saturday, May 31, 2025</span>
-        <span className="text-secondary-500">Walnut Creek, CA</span>
+        <TypedText
+          firstLine="Saturday, May 31, 2025"
+          secondLine="Walnut Creek, CA"
+        />
       </motion.div>
     </motion.div>
   );
