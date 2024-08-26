@@ -1177,6 +1177,21 @@
   resolved "https://registry.yarnpkg.com/@fontsource-variable/nunito/-/nunito-5.0.20.tgz#87021104347c1d529b0474db2e920b892e35a657"
   integrity sha512-tlqEAxXOuq0usnkfBe22eeIuG6gbiO2P6SWsSMykD8dmLFNotag6Dg7g9ytGTV90NL+Q4lKObhh5duAeLjeDjg==
 
+"@fontsource-variable/playfair-display@^5.0.26":
+  version "5.0.26"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/playfair-display/-/playfair-display-5.0.26.tgz#07c38de231429d46246ec21aa76f308b17bb3baa"
+  integrity sha512-RupbW2PqBbsLbwcRBIX9fzzWr9jcovB+szNZGMRxU8V+l2VsaVhv9rm0NN/Z0gi15NtR+ipvB8apAeJJoBT1oQ==
+
+"@fontsource/fira-mono@^5.0.14":
+  version "5.0.14"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-5.0.14.tgz#9bad817d567a8b63cee3d5c9700bbd24e23f7fb7"
+  integrity sha512-4IKa+cuHipk/vr2frgZh4pyR2XcoQk/j3zmMlo8uuAGUB3IPLpQlgN6Qm5d3RfRZ7dXGlTn/PWiAJeU8bkmD4w==
+
+"@fontsource/ibm-plex-mono@^5.0.14":
+  version "5.0.14"
+  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-mono/-/ibm-plex-mono-5.0.14.tgz#874a45b23d0d42d1fc3a97462ffa21e176415e4d"
+  integrity sha512-727fOjiog6PbVkfLTRaiba5vus9z00RrGuoxif85FIKljXkoLxrSEKmACz0ldzLJy6KuEwnj5JBq2h4SUC0N8w==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@^2.13.1":
   version "2.13.1"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-2.13.1.tgz#79d2692330a942394200c9bf3e820a4e55075ffb"
@@ -9214,6 +9229,16 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier-plugin-tailwindcss@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.6.6.tgz#93e524d3c30f3fb45dc9e99de985b2a584ff063f"
+  integrity sha512-OPva5S7WAsPLEsOuOWXATi13QrCKACCiIonFgIR6V4lYv4QLp++UXVhZSzRbZxXGimkQtQT86CC6fQqTOybGng==
+
+prettier@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
+  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
 pretty-bytes@^5.6.0:
   version "5.6.0"
