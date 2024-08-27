@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 export default function PhotosSection() {
   return (
     <Section className="flex flex-col items-stretch bg-[#769250]">
-      <div className="grid grid-flow-row auto-rows-[minmax(0,36rem)] grid-cols-1 gap-12 px-12 py-16 lg:grid-cols-2 lg:px-24">
+      <div className="grid grid-flow-row auto-rows-[minmax(0,28rem)] grid-cols-1 gap-8 px-8 py-12 lg:auto-rows-[minmax(0,36rem)] lg:grid-cols-2 lg:gap-12 lg:px-24 lg:py-16">
         <StaticImage
           className="lg:row-span-2"
           objectPosition="80% bottom"
