@@ -5,33 +5,26 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function PhotosSection() {
   return (
-    <Section className="bg-background flex flex-col items-stretch">
-      <div className="grid grid-cols-1 gap-12 px-12 py-16 lg:grid-cols-2 lg:px-24">
-        <div className="flex flex-col gap-6 text-xl">
-          <h1 className="font-heading text-6xl">We're getting married!</h1>
-          <div>
-            <p className="text-secondary-400">Date/Time</p>
-            <p>May 31, 2025</p>
-            <p>5:00 PM - 10:00 PM</p>
-          </div>
-          <div>
-            <p className="text-secondary-400">Location</p>
-            <p>The Ruth Bancroft Garden</p>
-            <p>1552 Bancroft Rd, Walnut Creek, CA 94598</p>
-          </div>
-          <div>
-            <p className="text-secondary-400">Attire</p>
-            <p>Black Tie encouraged</p>
-          </div>
-        </div>
+    <Section className="flex flex-col items-stretch bg-[#769250]">
+      <div className="grid grid-flow-row auto-rows-[minmax(0,36rem)] grid-cols-1 gap-12 px-12 py-16 lg:grid-cols-2 lg:px-24">
         <StaticImage
-          className="h-[48rem]"
-          objectPosition="center 20%"
-          alt="Kevin and Lena"
-          src="../../images/RRV04319.jpg"
+          className="lg:row-span-2"
+          objectPosition="80% bottom"
+          alt="In front of Cafe de la Presse"
+          src="../../images/DSC04246.jpg"
           draggable={false}
-          loading="eager"
-          layout="fullWidth"
+        />
+        <StaticImage
+          objectPosition="bottom"
+          alt="In front of Wayfare Tavern"
+          src="../../images/DSC04520.jpg"
+          draggable={false}
+        />
+        <StaticImage
+          objectPosition="center"
+          alt="In the dome at the Villa Melzi D'Eril"
+          src="../../images/Lena&Kevin_122.jpg"
+          draggable={false}
         />
       </div>
     </Section>

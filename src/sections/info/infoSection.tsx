@@ -2,6 +2,7 @@ import React from "react";
 
 import Section from "../../components/section";
 import { StaticImage } from "gatsby-plugin-image";
+import Cursor from "../../components/cursor";
 
 export default function InfoSection() {
   return (
@@ -10,22 +11,19 @@ export default function InfoSection() {
         <div className="flex flex-col gap-6 text-xl">
           <h1 className="font-heading text-6xl">We're getting married!</h1>
           <div>
-            <p className="text-secondary-400">Date/Time</p>
+            <p className="text-secondary-400">Date</p>
             <p>May 31, 2025</p>
-            <p>5:00 PM - 10:00 PM</p>
           </div>
           <div>
             <p className="text-secondary-400">Location</p>
             <p>The Ruth Bancroft Garden</p>
-            <p>1552 Bancroft Rd, Walnut Creek, CA 94598</p>
-          </div>
-          <div>
-            <p className="text-secondary-400">Attire</p>
-            <p>Black Tie encouraged</p>
+            <p>1552 Bancroft Rd</p>
+            <p>Walnut Creek, CA 94598</p>
           </div>
           <div>
             <p className="text-secondary-400 lg:mt-12">
               Additional details to follow.
+              <Cursor className="bg-secondary-400" />
             </p>
           </div>
         </div>
@@ -35,8 +33,6 @@ export default function InfoSection() {
           alt="Kevin and Lena"
           src="../../images/RRV04319.jpg"
           draggable={false}
-          loading="eager"
-          layout="fullWidth"
         />
       </div>
     </Section>

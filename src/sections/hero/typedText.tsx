@@ -7,7 +7,7 @@ import {
   useMotionValue,
   useTransform,
 } from "framer-motion";
-import CursorBlinker from "./cursor";
+import Cursor from "../../components/cursor";
 
 function useTruncatedText(
   text: string,
@@ -68,7 +68,7 @@ export default function TypedText({
           </motion.span>
         </>
       ) : null}
-      <CursorBlinker />
+      <Cursor className="bg-accent-green" />
     </span>
   );
 }

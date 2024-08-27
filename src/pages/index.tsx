@@ -3,12 +3,14 @@ import type { HeadFC, PageProps } from "gatsby";
 import HeroSection from "../sections/hero/heroSection";
 import InfoSection from "../sections/info/infoSection";
 import FooterSection from "../sections/footer/footerSection";
+import PhotosSection from "../sections/photos/photoSection";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className="bg-bg-primary flex min-h-screen flex-col items-stretch font-body text-xl">
       <HeroSection />
       <InfoSection />
+      <PhotosSection />
       <FooterSection />
     </main>
   );
